@@ -1,0 +1,93 @@
+.hero-container{
+    background-image:  url(./assets/images/sorcere.jpg);
+    background:linear-gradient(left to, #000000, gray);
+    
+    background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 33rem;
+        
+}
+
+.hero-title {
+        text-align: center;
+      
+        padding-top: 13%;
+        color: #fff;
+        
+}
+.hero-title h1  {
+        font-size: 70px;
+        letter-spacing: 4px;
+}
+.hero-title p{
+        font-size: 30px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+}
+
+.hero-title .triller{
+        padding: 1rem;
+        font-weight: 700;
+        margin-left: 20px;
+        
+}
+.hero-title .triller:hover{
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+    transition: all 0.5s ease-out;
+}
+.hero-title .started{
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            font-weight: 700;
+            padding: 0.8rem;
+}
+.hero-title .started:hover{
+                background-color: #fff;
+                color: #000000;
+                transition: all 0.5s ease-out;
+                
+}
+
+@media screen and (max-width: 960px) {
+    .hero-title h1{
+        font-size: 50px;
+        padding-top: 30px;
+    }
+
+    .hero-btns{
+        padding-top: 40px;
+    }
+    .hero-title .triller{
+        
+        padding: 1rem;
+        font-weight: 700;
+        margin-left: 20px;
+        
+}
+.hero-title .triller:hover{
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+    transition: all 0.5s ease-out;
+}
+.hero-title .started{
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            font-weight: 700;
+            padding: 0.8rem;
+}
+.hero-title .started:hover{
+                background-color: #fff;
+                color: #000000;
+                transition: all 0.5s ease-out;
+                
+}
+
+}

@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT sans', sans-serif;
+    /* background-image: url(./components/assets/images/adventure.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
